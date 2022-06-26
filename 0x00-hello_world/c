@@ -728,6 +728,6 @@ extern int __overflow (FILE *, int);
 # 3 "main.c"
 int main(void)
 {
- puts("hello world\n");
+ puts("hello worlds");
  return 0;
 }
