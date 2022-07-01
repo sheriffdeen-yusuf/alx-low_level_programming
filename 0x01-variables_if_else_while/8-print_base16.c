@@ -16,9 +16,9 @@ int main(void)
 	{
 		putchar(i + '0');
 	}
-	for (ch = 'a'; ch <= 'g'; ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(i);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
