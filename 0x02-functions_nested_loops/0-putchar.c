@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
-* main - check the the code
-*
-* Return: Always 0
-*/
-
+ * main - Entry point
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-	int i;
-	i = 0;
-	
+	int i = 0;
 	char text[] = "_putchar";
 
-	while (text[i] != '\n')
+	while (text[i] != '\0')
 	{
 		_putchar(text[i]);
 		i++;
