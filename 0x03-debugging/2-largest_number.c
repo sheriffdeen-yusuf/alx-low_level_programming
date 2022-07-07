@@ -2,29 +2,29 @@
 
 /**
  * largest_number - returns the largest of 3 numbers
- * @var1: first integer
- * @var2: second integer
- * @var3: third integer
- *
- * Created by: ALX
- * Modified by: Sanctus-Peter
- * Date modified: 6th july, 2022
- *
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
  * Return: largest number
+ * Edited by Leknz
  */
 
-int largest_number(int var1, int var2, int var3)
+int largest_number(int a, int b, int c)
 {
-	int largest;
+    int largest;
 
-	if (var1 > var2 && var1 > var3)
-		largest = var1;
-	else if (var2 > var1 && var2 > var3)
-		largest = var2;
-	else if (var3 > var2)
-		largest = var3;
-	else
-		largest = var2;
+    if (a > b && a  > c)
+    {
+        largest = a;
+    }
+    else if (b > a && b > c)
+    {
+        largest = b;
+    }
+    else
+    {
+        largest = c;
+    }
 
-	return (largest);
+    return (largest);
 }
