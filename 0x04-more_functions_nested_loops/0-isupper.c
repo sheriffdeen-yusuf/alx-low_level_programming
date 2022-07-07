@@ -1,4 +1,4 @@
-#include <ctype.h>
+#include "main.h"
 
 /**
 * _isupper - return 1 if a char is uppercase, 0 otherwise
