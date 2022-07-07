@@ -6,7 +6,10 @@
  * @var2: second integer
  * @var3: third integer
  *
- 
+ * Created by: ALX
+ * Modified by: Sanctus-Peter
+ * Date modified: 6th july, 2022
+ *
  * Return: largest number
  */
 
