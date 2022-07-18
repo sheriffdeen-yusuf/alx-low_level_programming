@@ -5,7 +5,7 @@
 * @s: array to be filled
 * @b: constant byte
 * @n: length of required memory
-* Returns:  a pointer to the memory area s
+* Return:  a pointer to the memory area s
 */
 
 
