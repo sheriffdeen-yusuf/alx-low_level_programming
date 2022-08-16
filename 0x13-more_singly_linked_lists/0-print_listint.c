@@ -3,7 +3,7 @@
 /**
 * print_listint - print all data in the list
 * @h: pointer to head
-* Return - number of data
+* Return: number of data
 */
 
 size_t print_listint(const listint_t *h)
