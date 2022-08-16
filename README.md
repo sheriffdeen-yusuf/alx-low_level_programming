@@ -1,1 +1,1 @@
-Understanding static libaries, linker, and commands
+more on singly linkedlist
