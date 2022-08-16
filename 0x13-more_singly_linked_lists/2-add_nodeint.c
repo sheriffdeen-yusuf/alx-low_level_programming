@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* add_nodeinit - mskes a new node the head pointer
+* add_nodeint - mskes a new node the head pointer
 * @head: pointer to head
 * @n: dsta for new node
 * Return: pointer to head
