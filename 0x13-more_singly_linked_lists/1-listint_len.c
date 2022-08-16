@@ -1,20 +1,19 @@
 #include "lists.h"
 
 /**
-* listint_len - count all data in the list
-* @h: pointer to head
-* Return: number of data
-*/
-
+ * listint_len - count the number of elements in listint_t
+ * @h: pointer to the head of the list
+ *
+ * Return: the number of element
+ */
 size_t listint_len(const listint_t *h)
 {
-	int count = 0;
+	size_t count = 0;
 
-	while (h != NULL)
+	while (h)
 	{
 		count++;
 		h = h->next;
 	}
-
 	return (count);
 }

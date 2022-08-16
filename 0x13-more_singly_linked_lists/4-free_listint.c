@@ -1,10 +1,9 @@
 #include "lists.h"
 
 /**
-* free_listint - free all memory in use
-* @head: pointer to head
-* Return: null
-*/
+ * free_listint - free a linked list
+ * @head: pointer to head of the list
+ */
 
 void free_listint(listint_t *head)
 {
@@ -16,5 +15,4 @@ void free_listint(listint_t *head)
 		free(head);
 		head = tmp;
 	}
-	
 }
